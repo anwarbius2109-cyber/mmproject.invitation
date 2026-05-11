@@ -1,6 +1,12 @@
-{
-  "nama": "Java Atelier",
+[
+  {
+    "nama": "Java Atelier",
   "gambar": "assets/Java Atelier.webp",
   "link": "https://id.sudahnikah.com/s/1335394/undangan?kpd=Bapak+Budi",
   "kategori": "populer"
-}
+  },
+  {
+      "nama": "Java Atelier",
+  "gambar": "assets/Java Atelier.webp",
+  "link": "https://id.sudahnikah.com/s/1335394/undangan?kpd=Bapak+Budi",
+  "kategori": "populer"
