@@ -349,7 +349,7 @@
   </h3>
 
   <p class="text-xs md:text-sm text-gray-600 leading-relaxed">
-    500+ tema modern & premium.
+    150+ tema modern & premium.
   </p>
 
 </div>
