@@ -201,3 +201,40 @@ a{
   }
 
 }
+/* =========================
+   PORTO GRID
+========================= */
+
+#porto .porto-grid{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+/* Laptop */
+@media (max-width: 1200px){
+
+  #porto .porto-grid{
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+}
+
+/* Mobile */
+@media (max-width: 768px){
+
+  #porto .porto-grid{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+}
+
+/* Image Porto */
+
+#porto .porto-grid img{
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 12px;
+}
