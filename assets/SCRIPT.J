@@ -18,44 +18,51 @@ fetch("data/katalog.json")
 
     const searchInput = document.getElementById("search");
 
-    searchInput.addEventListener("input", function(){
+   searchInput.addEventListener("input", function(){
 
-      const keyword = this.value.toLowerCase().trim();
+  const keyword = this.value.toLowerCase().trim();
 
-      halaman = 1;
+  halaman = 1;
 
-      // kalau kosong
-      if(keyword === ""){
-        dataAktif = semuaData;
-        tampilkan();
-        return;
-      }
+  // 🔥 UBAH HASH URL
+  if(keyword === ""){
+    window.location.hash = "katalog";
+  } else {
+    const slug = keyword.replace(/\s+/g, "-");
+    window.location.hash = `katalog/${slug}`;
+  }
 
-      // pecah kata
-      const kataCari = keyword.split(" ");
+  // kalau kosong
+  if(keyword === ""){
+    dataAktif = semuaData;
+    tampilkan();
+    return;
+  }
 
-      dataAktif = semuaData.filter(item => {
+  // pecah kata
+  const kataCari = keyword.split(" ");
 
-        // gabungkan semua text
-        const gabung = `
-          ${item.nama || ""}
-          ${item.kategori || ""}
-          ${(item.keyword || []).join(" ")}
-        `.toLowerCase();
+  dataAktif = semuaData.filter(item => {
 
-        // flexible search
-        return kataCari.some(kata => 
-          gabung.includes(kata)
-        );
+    // gabungkan semua text
+    const gabung = `
+      ${item.nama || ""}
+      ${item.kategori || ""}
+      ${(item.keyword || []).join(" ")}
+    `.toLowerCase();
 
-      });
+    // flexible search
+    return kataCari.some(kata => 
+      gabung.includes(kata)
+    );
 
-      tampilkan();
+  });
+
+  tampilkan();
 
     });
 
   });
-
 function tampilkan(){
   const katalog = document.getElementById("katalog");
   const nomorWA = "6281261233730";
@@ -206,6 +213,48 @@ function prevPage(){
     });
   }
 }
+    // ======================
+// BUKA SEARCH DARI URL
+// ======================
+
+window.addEventListener("load", () => {
+
+  const hash = window.location.hash;
+
+  if(hash.includes("katalog/")){
+
+    const keyword = hash.split("katalog/")[1]
+      .replace(/-/g, " ");
+
+    const searchInput = document.getElementById("search");
+
+    if(searchInput){
+
+      searchInput.value = keyword;
+
+      const kataCari = keyword.toLowerCase().split(" ");
+
+      dataAktif = semuaData.filter(item => {
+
+        const gabung = `
+          ${item.nama || ""}
+          ${item.kategori || ""}
+          ${(item.keyword || []).join(" ")}
+        `.toLowerCase();
+
+        return kataCari.some(kata =>
+          gabung.includes(kata)
+        );
+
+      });
+
+      tampilkan();
+
+    }
+
+  }
+
+});
 fetch("data/porto.json")
   .then(res => res.json())
   .then(data => {
