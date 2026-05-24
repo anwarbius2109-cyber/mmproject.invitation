@@ -875,86 +875,94 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
   <div id="portoList" class="porto-grid"></div>
   
 <!-- SECTION SHOPEE -->
-<section class="py-20 bg-white">
+<section class="py-20">
   <div class="max-w-6xl mx-auto px-6">
 
-    <div class="grid md:grid-cols-2 gap-12 items-center bg-black rounded-[32px] p-8 md:p-12 overflow-hidden">
+    <!-- Card -->
+    <div class="rounded-[32px] bg-[#0F0F0F] border border-white/10 p-8 md:p-12 hover:-translate-y-3 hover:shadow-[0_20px_60px_rgba(0,0,0,0.35)] transition-all duration-500">
 
-      <!-- Foto -->
-      <div class="relative">
-        <img 
-          src="assets/MSA H.png"
-          alt="Shopee Store"
-          class="rounded-[24px] border border-gray-800 shadow-2xl w-full hover:scale-[1.02] transition-all duration-500"
-        />
-      </div>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
 
-      <!-- Konten -->
-      <div>
-
-        <span class="inline-block px-4 py-2 rounded-full bg-orange-500/20 text-orange-400 text-sm font-semibold mb-5 border border-orange-500/20">
-          Order Lebih Aman
-        </span>
-
-        <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight mb-5">
-          Masih Ragu Order di Kami?
-        </h2>
-
-        <p class="text-gray-300 leading-relaxed mb-8">
-          Kakak juga bisa melakukan pemesanan melalui toko Shopee resmi kami ✨
-          Lebih praktis, terpercaya, dan tersedia banyak ulasan dari pelanggan.
-        </p>
-
-        <!-- List -->
-        <div class="space-y-4 mb-8">
-
-          <div class="flex items-start gap-3">
-            <div class="w-6 h-6 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 text-sm">
-              ✓
-            </div>
-
-            <p class="text-gray-200">
-              Sudah dipercaya banyak pelanggan
-            </p>
-          </div>
-
-          <div class="flex items-start gap-3">
-            <div class="w-6 h-6 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 text-sm">
-              ✓
-            </div>
-
-            <p class="text-gray-200">
-              Bisa cek rating dan ulasan toko langsung
-            </p>
-          </div>
-
-          <div class="flex items-start gap-3">
-            <div class="w-6 h-6 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 text-sm">
-              ✓
-            </div>
-
-            <p class="text-gray-200">
-              Pembayaran lebih praktis dan aman
-            </p>
-          </div>
-
+        <!-- Foto -->
+        <div class="relative">
+          <img 
+            src="assets/images/shopee-store.png"
+            alt="Shopee Store"
+            class="rounded-[24px] border border-white/10 shadow-2xl w-full"
+          />
         </div>
 
-        <!-- Button -->
-        <a 
-          href="https://shopee.co.id/product/99830023/41450563672/"
-          target="_blank"
-          class="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-2xl shadow-lg hover:scale-105 transition-all duration-300"
-        >
+        <!-- Content -->
+        <div>
 
-          <!-- Icon -->
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M19 6h-2a5 5 0 0 0-10 0H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2Zm-7-3a3 3 0 0 1 3 3H9a3 3 0 0 1 3-3Zm7 16H5V8h14v11Z"/>
-          </svg>
+          <!-- Label -->
+          <span class="text-sm text-orange-400 font-medium">
+            Order Lebih Aman
+          </span>
 
-          Kunjungi Toko Shopee
+          <!-- Title -->
+          <h2 class="text-3xl md:text-5xl font-bold text-white mt-3 mb-5 leading-tight">
+            Masih Ragu Order di Kami?
+          </h2>
 
-        </a>
+          <!-- Description -->
+          <p class="text-gray-300 leading-relaxed mb-8">
+            Kakak juga bisa melakukan pemesanan melalui toko Shopee resmi kami ✨
+            Lebih praktis, terpercaya, dan tersedia banyak ulasan dari pelanggan.
+          </p>
+
+          <!-- List -->
+          <div class="space-y-4 mb-8">
+
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full bg-orange-500/10 flex items-center justify-center text-orange-400 text-sm">
+                ✓
+              </div>
+
+              <p class="text-gray-200">
+                Sudah dipercaya banyak pelanggan
+              </p>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full bg-orange-500/10 flex items-center justify-center text-orange-400 text-sm">
+                ✓
+              </div>
+
+              <p class="text-gray-200">
+                Bisa cek rating dan ulasan toko langsung
+              </p>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-6 h-6 rounded-full bg-orange-500/10 flex items-center justify-center text-orange-400 text-sm">
+                ✓
+              </div>
+
+              <p class="text-gray-200">
+                Pembayaran lebih praktis dan aman
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Button -->
+          <a 
+            href="https://shopee.co.id/shop/99830023"
+            target="_blank"
+            class="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105"
+          >
+
+            <!-- Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 6h-2a5 5 0 0 0-10 0H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2Zm-7-3a3 3 0 0 1 3 3H9a3 3 0 0 1 3-3Zm7 16H5V8h14v11Z"/>
+            </svg>
+
+            Kunjungi Toko Shopee
+
+          </a>
+
+        </div>
 
       </div>
 
