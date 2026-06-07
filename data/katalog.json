@@ -536,7 +536,7 @@
     "gambar": "assets/Super Purple.webp",
     "link": "https://id.sudahnikah.com/d/Super-Purple2?kpd=Tamu+Undangan",
     "kategori": "kartun",
-    "keyword": ["ungu","purple","kartun","cute","modern","elegan","warna"]
+    "keyword": ["ungu","purple","kartun","cute","modern","warna"]
   },
   {
     "nama": "Fantasy Spring",
@@ -550,14 +550,14 @@
     "gambar": "assets/Super Blue.webp",
     "link": "https://id.sudahnikah.com/d/Super-Blueee?kpd=Tamu+Undangan",
     "kategori": "kartun",
-    "keyword": ["biru","blue","kartun","modern","simple","clean","elegan"]
+    "keyword": ["biru","blue","kartun","modern","simple","clean"]
   },
   {
     "nama": "Java Atelier",
     "gambar": "assets/Java Atelier.webp",
     "link": "https://id.sudahnikah.com/s/1335394/undangan?kpd=Bapak+Budi",
     "kategori": "wedding",
-    "keyword": ["jawa","adat","batik","tradisional","solo","jogja","classic","elegan"]
+    "keyword": ["jawa","adat","batik","tradisional","solo","jogja","classic"]
   },
   {
     "nama": "Elegan N T",
@@ -571,14 +571,14 @@
     "gambar": "assets/Luxury Burgundy C.webp",
     "link": "https://id.sudahnikah.com/d/Luxury-Bugurdy2?kpd=Bapak+Budi",
     "kategori": "kartun",
-    "keyword": ["merah","maroon","burgundy","luxury","gold","mewah","elegan"]
+    "keyword": ["merah","maroon","burgundy","luxury","gold","mewah"]
   },
   {
     "nama": "Aesthetic Symphony",
     "gambar": "assets/Aesthetic Symphony.webp",
     "link": "https://id.sudahnikah.com/s/1238422/undangan/399?kpd=Bapak%20Budi",
     "kategori": "wedding",
-    "keyword": ["aesthetic","modern","simple","clean","soft","elegan","minimalis"]
+    "keyword": ["aesthetic","modern","simple","clean","soft","minimalis"]
   },
   {
     "nama": "Maso Rustic",
@@ -599,14 +599,14 @@
     "gambar": "assets/Fantasy Moment.png",
     "link": "https://id.sudahnikah.com/d/Fantasy-Moment-C?kpd=Tamu+Undangan",
     "kategori": "wedding",
-    "keyword": ["fantasy","romantis","cute","warna","modern","soft","elegan"]
+    "keyword": ["fantasy","romantis","cute","warna","modern","soft"]
   },
   {
     "nama": "Fantasy Peacock",
     "gambar": "assets/Fantasy Peacock.png",
     "link": "https://id.sudahnikah.com/d/Fantasy-Peacock-c?kpd=Tamu+Undangan",
     "kategori": "wedding",
-    "keyword": ["merak","fantasy","elegan","warna","unik","mewah"]
+    "keyword": ["merak","fantasy","warna","unik","mewah"]
   },
   {
     "nama": "Super Clasic",
@@ -683,55 +683,55 @@
     "gambar": "assets/White Arabic.png",
     "link": "https://id.sudahnikah.com/d/White-Arabic?kpd=Tamu+Undangan",
     "kategori": "khitan",
-    "keyword": ["arabic","putih","white","islami","muslim","clean","elegan"]
+    "keyword": ["arabic","putih","white","islami","muslim","clean"]
   },
   {
   "nama": "Fantasy Love",
   "gambar": "assets/Fantasy Love.webp",
   "link": "https://id.sudahnikah.com/d/Fantasy-love?kpd=Bapak+Budi",
   "kategori": "wedding",
-  "keyword": ["fantasy","romantis","pink","cute","3d","montion","elegan"]
+  "keyword": ["fantasy","romantis","pink","cute","3d","montion"]
 },
 {
   "nama": "Honey Java",
   "gambar": "assets/Honey Java.webp",
   "link": "https://id.sudahnikah.com/d/Honey-Java?kpd=Bapak+Budi",
   "kategori": "wedding",
-  "keyword": ["jawa","adat","batik","gold","elegan"]
+  "keyword": ["jawa","adat","batik","gold"]
 },
 {
   "nama": "Customs Newspaper",
   "gambar": "assets/Costume Newspaper.webp",
   "link": "https://id.sudahnikah.com/d/costume-newspaper?kpd=Bapak+Budi",
   "kategori": "wedding",
-  "keyword": ["koran","retro","Newspaper","unik","classic"]
+  "keyword": ["koran","retro","Newspaper","hitam","classic"]
 },
 {
   "nama": "Aesthetic Romance",
   "gambar": "assets/Aesthetic Romance.jpg",
   "link": "https://id.sudahnikah.com/s/907268/undangan?kpd=Bapak+Budi",
   "kategori": "wedding",
-  "keyword": ["aesthetic","romantis","soft","modern","elegan"]
+  "keyword": ["aesthetic","romantis","soft","modern","populer"]
 },
 {
   "nama": "Elegan White",
   "gambar": "assets/Elegan White.webp",
   "link": "https://id.sudahnikah.com/d/Elegan-White?kpd=Bapak+Budi",
   "kategori": "wedding",
-  "keyword": ["white","putih","minimalis","clean","elegan"]
+  "keyword": ["white","putih","minimalis","clean"]
 },
 {
   "nama": "Elegan Nature",
   "gambar": "assets/Elegan nature.webp",
   "link": "https://id.sudahnikah.com/d/elegan-and-nature?kpd=Bapak+Budi",
   "kategori": "wedding",
-  "keyword": ["nature","alam","green","hijau","elegan"]
+  "keyword": ["soft","pink","green","hijau"]
 },
 {
   "nama": "Elegan Gray",
   "gambar": "assets/Elegan Gray.jpg",
   "link": "https://id.sudahnikah.com/d/Rizzal-dan-Selvi?kpd=Tamu+Undangan",
   "kategori": "wedding",
-  "keyword": ["gray","abu","minimalis","modern","elegan"]
+  "keyword": ["gray","abu","minimalis","silver"]
 }
 ]
