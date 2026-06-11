@@ -98,12 +98,17 @@ Saya mau pesan undangan
         </div>
 
         <!-- nama tema -->
-        <div class="px-3 pt-3 text-center text-sm sm:text-base font-semibold">
-          ${item.nama}
-        </div>
+<div class="px-3 pt-3 text-center text-sm sm:text-base font-semibold">
+  ${item.nama}
+</div>
 
-        <!-- tombol -->
-        <div class="p-3 flex flex-col gap-2">
+<!-- harga -->
+<div class="text-center text-[#ee4d2d] text-base font-bold mt-1 mb-3">
+  Rp55.000 - Rp120.000
+</div>
+
+<!-- tombol -->
+<div class="p-3 flex flex-col gap-2">
 
           <a href="${item.link}" target="_blank"
           class="w-full text-center bg-black text-white py-3 rounded-xl text-sm font-semibold active:scale-95 transition">
